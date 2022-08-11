@@ -1,0 +1,20 @@
+.block{
+padding: 20px 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+
+}
+.container{
+    flex-direction: column;
+    padding: 10px;
+}
+.input{
+margin-top: 5px;
+}
+.textarea{
+margin: 5px 0;
+}
