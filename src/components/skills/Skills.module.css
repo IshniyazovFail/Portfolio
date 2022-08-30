@@ -1,8 +1,4 @@
-.skillsBlock {
-    background-color: mediumspringgreen;
-    text-align: center;
-    padding: 20px 0;
-}
+
 
 .skills {
     width: 100%;
@@ -11,15 +7,9 @@
     flex-wrap: wrap;
 }
 
-.mySkills {
-    background-color: darkgrey;
-    font-size: 30px;
-    margin-bottom: 20px;
-
-}
 
 .container {
     flex-direction: column;
     justify-content: center;
-    padding:20px 0 ;
+    background-color: #f8f9fe ;
 }

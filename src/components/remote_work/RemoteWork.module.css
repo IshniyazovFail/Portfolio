@@ -1,10 +1,13 @@
 
 .block {
-    padding: 10px 0;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f2f2dc;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
@@ -12,6 +15,8 @@
     flex-wrap: nowrap;
     padding: 10px;
 }
-.title{
-    margin-bottom:10px ;
+
+.title {
+    margin-bottom: 10px;
+    font-weight: 700;
 }

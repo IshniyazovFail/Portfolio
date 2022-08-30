@@ -1,0 +1,36 @@
+.mainBlock {
+  background-color: #fff;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+
+  .text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    color: #222;
+    max-width: 300px;
+    line-height: 1.25;
+    .subtitle{
+      font-size: 18px;
+      line-height: normal;
+      color: #b6b6b6;
+      font-weight: 700;
+    }
+    span {
+      color: #374c9f;
+      font-style: italic;
+      font-weight: 700;
+
+
+    }
+  }
+
+  .photo {
+    width: 300px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+
+  }
+}
+

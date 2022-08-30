@@ -1,16 +1,14 @@
-.block{
-padding: 20px 0;
-}
 
 .form{
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+   width: 50%;
 
 }
 .container{
     flex-direction: column;
-    padding: 10px;
+    padding: 10px 0;
+    background-color:#f8f9fe ;
 }
 .input{
 margin-top: 5px;

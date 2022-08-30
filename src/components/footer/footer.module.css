@@ -1,22 +1,23 @@
-.block{
-    background: mediumspringgreen;
-    padding: 20px 0;
 
-}
-
-.container{
+.container {
     text-align: center;
     flex-direction: column;
     padding: 10px;
+    background-color: #374c9f;
+    color: #fff;
+
 }
-.name{
-    padding-bottom:10px ;
+
+.name {
+    padding-bottom: 10px;
     font-weight: bold;
 }
-.images{
-width: 50px;
+
+.images {
+    width: 50px;
 }
-.icons{
+
+.icons {
     display: flex;
     min-width: 250px;
     justify-content: space-between;

@@ -1,7 +1,7 @@
 .worksBlock {
-    background-color: #b8abdb;
+    background-color: #fff;
     text-align: center;
-    padding: 20px 0;
+
 }
 
 .works {
@@ -11,15 +11,8 @@
     flex-wrap: wrap;
 }
 
-.title {
-    background-color: darkgrey;
-    font-size: 30px;
-    margin-bottom: 20px;
-
-}
-
 .container {
     flex-direction: column;
     justify-content: center;
-    padding-top:20px ;
+    padding:20px 0;
 }

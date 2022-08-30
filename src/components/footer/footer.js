@@ -7,7 +7,6 @@ import linkedin from './../../common/image/icons/linkedin.svg'
 import phone from './../../common/image/icons/phone.svg'
 export const Footer = () => {
     return (
-        <div className={style.block}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <div className={style.name}>ISHNIYAZOV FAIL</div>
                 <div className={style.icons}>
@@ -18,7 +17,6 @@ export const Footer = () => {
                 </div>
                 <div>© 2022 All rights reserved </div>
             </div>
-        </div>
     );
 };
 
