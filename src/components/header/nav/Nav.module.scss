@@ -1,0 +1,14 @@
+@import "../../../common/styles/sass/mixins.module.scss";
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  min-width: 360px;
+
+}
+
+a {
+  text-decoration: none;
+  @include text(16px, #fff);
+  font-weight: 600;
+}

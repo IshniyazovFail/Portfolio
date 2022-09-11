@@ -1,7 +1,7 @@
-.title{
-    font-family: 'Nunito sans',sans-serif;
-    color: #374c9f;
-    letter-spacing: .2px;
-    font-size: 30px;
-    line-height: 0;
+@import '../../common/styles/sass/mixins.module';
+
+.title {
+  @include text(30px, #374c9f);
+  letter-spacing: 2px;
+  line-height: 0;
 }

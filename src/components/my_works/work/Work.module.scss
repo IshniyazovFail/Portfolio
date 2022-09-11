@@ -1,3 +1,5 @@
+@import "../../../common/styles/sass/mixins.module";
+
 .work {
   max-width: 350px;
   display: flex;
@@ -29,23 +31,24 @@
 
   .titleBlock {
     .title {
-      font-family: 'Nunito Sans', sans-serif;
+      @include text(20px, #000000);
       font-weight: 700;
-      font-size: 20px;
+
     }
 
     .text {
-      font-family: 'Nunito Sans', sans-serif;
-      color: #888;
-      font-size: 15px;
+      @include text(15px, #888);
       line-height: 1.6;
       margin-top: 10px;
 
     }
   }
+
+  @media screen and(min-width: 1020px) {
+    max-width: 500px;
+  }
+
 }
-
-
 
 
 

@@ -1,9 +1,9 @@
+@import "../../common/styles/sass/mixins.module";
+
 .block {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
-  font-family: 'Nunito Sans', sans-serif;
   background-size: cover;
   background-position: center;
 
@@ -13,8 +13,9 @@
     padding: 10px;
 
     .title {
-      margin-bottom: 10px;
+      @include text(16px, #fff);
       font-weight: 700;
+      margin-bottom: 10px;
     }
   }
 }

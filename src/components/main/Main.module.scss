@@ -1,21 +1,25 @@
+@import '../../common/styles/sass/variables.module';
+@import '../../common/styles/sass/mixins.module';
+
 .mainBlock {
   background-color: #fff;
   max-height: 100vh;
   display: flex;
   align-items: center;
-  padding: 10px 0;
+  padding: 20px 0;
+
   .text {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 20px;
-    color: #222;
+    @include text(20px, #222);
     max-width: 300px;
     line-height: 1.25;
-    .subtitle{
+
+    .subtitle {
       font-size: 18px;
       line-height: normal;
-      color: #b6b6b6;
+      color: $textColor;
       font-weight: 700;
     }
+
     span {
       color: #374c9f;
       font-style: italic;
