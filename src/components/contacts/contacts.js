@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./contacts.module.css"
+import style from "./contacts.module.scss"
 import styleContainer from "../../common/styles/container.module.css";
 
 export const Contacts = () => {

@@ -1,0 +1,31 @@
+.skill {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  justify-content: start;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #fff;
+  height: 100%;
+
+  .icons {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #222
+  }
+
+  .text {
+    padding: 5px;
+    font-size: 18px;
+    color: #b6b6b6
+  }
+}
+

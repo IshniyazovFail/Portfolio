@@ -1,0 +1,19 @@
+.worksBlock {
+  background-color: #fff;
+  text-align: center;
+
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+
+    .works {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+

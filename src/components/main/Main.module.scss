@@ -1,9 +1,9 @@
 .mainBlock {
   background-color: #fff;
-  height: 70vh;
+  max-height: 100vh;
   display: flex;
   align-items: center;
-
+  padding: 10px 0;
   .text {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 20px;

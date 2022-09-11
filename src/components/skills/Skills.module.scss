@@ -1,0 +1,12 @@
+.container {
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f8f9fe;
+
+  .skills {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
