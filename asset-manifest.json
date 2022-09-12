@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.66cb19c0.css",
-    "main.js": "/Portfolio/static/js/main.a1609324.js",
+    "main.css": "/Portfolio/static/css/main.fdd24153.css",
+    "main.js": "/Portfolio/static/js/main.a34982ed.js",
     "static/js/787.aeca62f9.chunk.js": "/Portfolio/static/js/787.aeca62f9.chunk.js",
     "static/media/social.jpg": "/Portfolio/static/media/social.bd9b3597939ad3e604ce.jpg",
     "static/media/photo.jpg": "/Portfolio/static/media/photo.27b410bd2697ca8de83d.jpg",
     "static/media/todolist.jpg": "/Portfolio/static/media/todolist.2bd37092bc4b74bb6a6d.jpg",
+    "static/media/input2.jpg": "/Portfolio/static/media/input2.1fa20b52bbb1221aac06.jpg",
     "static/media/1657339019_48-animeshka-org-p-crucifixes-and-zeros-background-foni-56.jpg": "/Portfolio/static/media/1657339019_48-animeshka-org-p-crucifixes-and-zeros-background-foni-56.bf69205a5580046a0909.jpg",
     "static/media/react.svg": "/Portfolio/static/media/react.47c1a676786bbf4c9f9489694b1a5eaf.svg",
     "static/media/JS.svg": "/Portfolio/static/media/JS.3832daa4a1f1ab5a5cfd34386678cb3e.svg",
@@ -15,12 +16,12 @@
     "static/media/facebook.svg": "/Portfolio/static/media/facebook.f51db061afd1b76fff7ddfd786e4e06c.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/html.svg": "/Portfolio/static/media/html.a026abbb678246d70ee9b70e4aee972c.svg",
-    "main.66cb19c0.css.map": "/Portfolio/static/css/main.66cb19c0.css.map",
-    "main.a1609324.js.map": "/Portfolio/static/js/main.a1609324.js.map",
+    "main.fdd24153.css.map": "/Portfolio/static/css/main.fdd24153.css.map",
+    "main.a34982ed.js.map": "/Portfolio/static/js/main.a34982ed.js.map",
     "787.aeca62f9.chunk.js.map": "/Portfolio/static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66cb19c0.css",
-    "static/js/main.a1609324.js"
+    "static/css/main.fdd24153.css",
+    "static/js/main.a34982ed.js"
   ]
 }
