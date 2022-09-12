@@ -11,7 +11,7 @@ export const RemoteWork = () => {
         <div style={remoteBackground} className={style.block}>
             <div className={`${styleContainer.container} ${style.container}`}>
                 <div className={style.title}>I am considering options for remote work</div>
-                <button>hire me</button>
+                <button className={style.button}>hire me</button>
             </div>
         </div>
     );

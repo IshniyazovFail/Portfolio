@@ -6,3 +6,8 @@
   font-size: $fontSize;
   color: $Color;
 }
+
+@mixin backgroundImage(){
+  background-size: cover;
+  background-position: center;
+}

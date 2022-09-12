@@ -17,6 +17,13 @@
       font-weight: 700;
       margin-bottom: 10px;
     }
+    .button{
+      background: #374c9f;
+      width: 100px;
+      padding: 5px;
+      border-radius: 5px;
+      @include text(16px, #ffffff);
+    }
   }
 }
 

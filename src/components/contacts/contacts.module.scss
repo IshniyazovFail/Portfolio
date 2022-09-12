@@ -1,23 +1,47 @@
+@import "../../common/styles/sass/mixins.module";
+
 .container {
   flex-direction: column;
   padding: 10px 0;
   background-color: #f8f9fe;
+
+  .title {
+    @include text(30px, #374c9f);
+  }
 
   .form {
     display: flex;
     flex-direction: column;
     width: 50%;
 
+
+
+
     .input {
       margin-top: 5px;
+      @include text(15px, #ffffff);
+      @include backgroundImage;
     }
 
     .textarea {
       margin: 5px 0;
+      @include text(15px, #ffffff) ;
+      @include backgroundImage;
     }
+
     @media screen and (max-width: 412px) {
-          width: 90%;
+      width: 90%;
     }
   }
+
+  .button {
+    background: #374c9f;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    @include text(16px, #ffffff);
+
+  }
+
 }
 
